@@ -1,0 +1,18 @@
+name: Build PDF from README
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pandoc
+        run: sudo apt-get -y install pandoc
+      - name: Build PDF
+        run: pandoc -f markdown -t pdf -o guide.pdf README.md
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: guide.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
