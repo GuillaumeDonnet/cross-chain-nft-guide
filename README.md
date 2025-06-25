@@ -1,5 +1,5 @@
 # Shipping a Gas‑Efficient Cross‑Chain NFT Marketplace on a Parallel EVM L1
-*By Guillaume Donnet – Developer Relations Engineer*
+*By Guillaume Donnet*
 
 > **TL;DR** This in‑depth tutorial demonstrates how to design, ship, and benchmark a production‑ready **cross‑chain NFT marketplace** that achieves **90 % gas savings** and **sub‑second listing latency** compared with a vanilla Ethereum L1 implementation. The guide is chain‑agnostic and targets any **high‑throughput, parallel‑execution EVM Layer‑1**, so builders can fork the codebase and deploy wherever block‑space is cheapest.
 
