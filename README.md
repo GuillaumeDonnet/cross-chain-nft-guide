@@ -111,10 +111,7 @@ Full methodology & raw logs: `/benchmarks/README.md`.
 
 ## 10. Resources
 
-- 📂 Source Code (GitHub): <https://github.com/GuillaumeDonnet/parallel-evm-nft-marketplace>
-- 🎥 15‑min Code Walkthrough (YouTube): <https://youtu.be/parallel-evm-nft-walkthrough>
-- 📄 Printable PDF Guide: <https://github.com/GuillaumeDonnet/parallel-evm-nft-marketplace/releases/latest>
+- 🎥 15‑min Code Walkthrough (YouTube): In progress...
+- 📄 Printable PDF Guide: Available in the git/workflows
 
----
-
-*Feedback welcome!* Ping me on Twitter [@GuillaumeDonnet](https://twitter.com/GuillaumeDonnet) or drop into the #builders Discord to discuss improvements.
+  Happy Hacks !
